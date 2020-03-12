@@ -1,0 +1,131 @@
+
+
+
+* { padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #815B40;
+}
+
+
+    
+    
+header, main, aside, article, section, footer {
+    border: 1px solid #000;
+    margin: 5px;
+    background-color: #A17C61;
+}
+header h1 {text-align: center;
+    font-family: 'MedievalSharp', cursive;
+}
+
+h2 {text-align: center;
+    font-family: 'MedievalSharp', cursive;}
+    
+header,main,footer {
+    width: calc(100% - 10px);
+   
+}
+
+p {text-align: center;
+    font-family: 'MedievalSharp', cursive;}
+
+li {font-family: 'MedievalSharp', cursive;}
+
+header, footer {
+    height: calc(20vh - 10px);
+}
+
+main{
+    height: calc(60vh - 10px);
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+aside {
+    width: calc(100% - 10px);
+    height: calc(20% - 10px);
+    background-color: #B88D6A;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#parentSection {
+    width: calc(100% - 10px);
+    height: calc(80% - 10px);
+    background-color: #B88D6A;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#parentSection section {
+    height: calc(50% - 10px);
+    background-color: #F1D1B4;
+    width: calc(80% - 10px);
+
+}
+article{ background-color: #F1D1B4;
+    height: calc(50% - 10px);
+    width: calc(80% - 10px);}
+
+body{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+ul {padding-left: 20px;}
+
+#Dice{height: auto;
+width: 20%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+#Map {    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+#PlagueWell{height: auto;
+    width: 18%;
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+  
+
+    
+
+#History {font-size: auto;}
+
+@media screen and (min-width: 768px) {
+    
+    main{
+        height: calc(80vh - 10px);
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+    }
+    aside {
+        width: calc(20% - 10px);
+      height: calc(100% - 10px);
+    }
+        #parentSection section {
+            height: calc(110% - 10px);
+            width: calc(80% - 10px);}
+}
+
+
+
